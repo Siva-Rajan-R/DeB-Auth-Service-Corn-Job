@@ -1,4 +1,4 @@
-name: Poll API Every 5 Mins
+name: Poll DeB-Auth-Service API For Every 2 Mins
 
 on:
   schedule:
