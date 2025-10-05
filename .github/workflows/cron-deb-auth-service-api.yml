@@ -1,8 +1,8 @@
-name: Poll DeB-Auth-Service API For Every 2 Mins
+name: Poll DeB-Auth-Service API For Every 5 Mins
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Runs every 5 minutes
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
   workflow_dispatch:       # (optional) manual trigger from GitHub UI
 
 jobs:
